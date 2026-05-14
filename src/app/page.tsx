@@ -1,0 +1,33 @@
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import CustomCursor from "@/components/ui/CustomCursor";
+import LoadingScreen from "@/components/ui/LoadingScreen";
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import ApproachSection from "@/components/sections/ApproachSection";
+import ContactSection from "@/components/sections/ContactSection";
+
+export default function Home() {
+  return (
+    <>
+      <LoadingScreen />
+      <CustomCursor />
+      <Navbar />
+
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ApproachSection />
+        <ContactSection />
+      </main>
+
+      <Footer />
+    </>
+  );
+}
