@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const personalInfo = {
   name: "Venugopal Bedar",
   title: "Sophomore at IIT Kharagpur",
@@ -195,3 +197,19 @@ export const workflowSteps = [
     color: "#06b6d4",
   },
 ];
+export const certificates = [
+  {
+    title: "Google Student Ambassador",
+    description:
+      "Promoted adoption of Google Gemini by conducting campus outreach initiatives and encouraging students to explore AI-powered tools. ",
+
+    longDescription:
+      "Promoted adoption of Google Gemini by conducting campus outreach initiatives and encouraging students to explore AI-powered tools.Managed a community group of 50+ students to share updates, resources, and discussions related to AI technologies and Google developer products.",
+    image: "/certificates/GSA certificate.png",
+    tags: ["Communication", "Networking", "Event Management", "Videography"],
+    github: "https://github.com",
+    live: "/certificates/GSA certificate.pdf",
+    featured: true,
+    color: "#a855f7",
+  }
+]
